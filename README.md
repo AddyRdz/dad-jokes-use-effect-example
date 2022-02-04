@@ -46,3 +46,7 @@ You should have:
 - One button to advance to the next joke.
 - One button to move to the previous joke.
 
+## Resources
+
+- [A visual guide to useEffect](https://alexsidorenko.com/blog/useeffect/)
+- [useEffect + clean ups](https://alexsidorenko.com/blog/useeffect-cleanups/)
