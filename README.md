@@ -1,14 +1,10 @@
 # Starter Code for React API / Fetch Review
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+--- 
+Adapted from lab by: Jeffry Horn / Zakk Fleischman (DC-WDI-React)
+--- 
 
-## Resource: I-Can-Haz-Dad-Joke API
-
-### [Dad Joke Documentation](https://icanhazdadjoke.com/api)
-
-We will be greating a basic example of a joke card component in react. 
-
-## We will be using the following React Tools:
+## We will be using the following React Technologies/Techniques:
 
 - React functional components
 - props
@@ -17,9 +13,10 @@ We will be greating a basic example of a joke card component in react.
 - FetchAPI (including setting custom headers)
 
 ## Stretch
-- passing functions through props
-- CSS styling
+- lifting state (passing functions through props)
+- UI + CSS styling
 
+--- 
 ## Overview
 
 Your application should make a random dad joke appear when the app loads.
