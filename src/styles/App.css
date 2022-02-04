@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 10px
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}

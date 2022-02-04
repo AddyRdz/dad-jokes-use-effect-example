@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Starter Code for React API / Fetch Review
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Resource: I-Can-Haz-Dad-Joke API
 
-In the project directory, you can run:
+### [Dad Joke Documentation](https://icanhazdadjoke.com/api)
 
-### `npm start`
+We will be greating a basic example of a joke card component in react. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## We will be using the following React Tools:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React functional components
+- props
+- useState
+- useEffect
+- FetchAPI (including setting custom headers)
 
-### `npm test`
+## Stretch
+- passing functions through props
+- CSS styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+Your application should make a random dad joke appear when the app loads.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Goals:
+- It should also display a large button that, when clicked, fetches a random dad
+joke from the dad jokes API and displays it to the user. 
+- Make it look as close to the image provided below.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Dad Jokes app mock](./assets/dad-jokes.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Bonus Features
 
-### `npm run eject`
+Build a queue that stores the 10 most recently retrieved dad jokes!
+Additionally, add some buttons that let you scroll back and forth through the
+queue.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You should have:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- One button to get a new joke (append to queue). If there are >10 jokes in the
+  queue, drop the oldest one.
+- One button to advance to the next joke.
+- One button to move to the previous joke.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
