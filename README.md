@@ -1,15 +1,12 @@
 ## Starter Code for React API / Fetch Review
 
----
 _Type_: Codealong/Lab
 
 _Duration_: :45 
 
 _Designed by_: Jeffry Horn / Zakk Fleischman (DC-WDI-React)
 
---- 
-
-## We will be using the following React Technologies/Techniques:
+### Technologies / Techniques
 
 - React functional components
 - props
@@ -17,7 +14,7 @@ _Designed by_: Jeffry Horn / Zakk Fleischman (DC-WDI-React)
 - useEffect
 - FetchAPI (including setting custom headers)
 
-## Stretch
+### Bonus Additions
 - lifting state (passing functions through props)
 - UI + CSS styling
 
