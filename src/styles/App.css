@@ -1,15 +1,49 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
-  padding: 10px
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+.App, .container, .card{
+  display: flex;
+  flex-direction: column;
+}
+.App{
+  flex-direction: column;
+  min-height: 100vh;
+}
+nav, .button {
+  background-color: #444;
+  padding: 10px 60px;
+  color: white;
 }
 
-.App {
-  text-align: center;
+.container {
+  justify-content: center;
+  align-items: center;
+  padding: 100px 60px 120px 60px;
+  flex: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  min-width: 33vw;
+  min-height: 200px;
+  max-width: 600px;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-family: 30px;
+  font-weight: 700;
+  border-radius: 20px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+}
+
+.button {
+  margin-top: 120px;
+  font-size: 30px;
+  border-radius: 5px;
 }
